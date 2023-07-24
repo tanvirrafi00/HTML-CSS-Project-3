@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.4;
+  font-weight: 300;
+}
+.sec-1 {
+  background-image: url(image-1.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+}
+.text_container {
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-left: 313;
+  padding-top: 50px;
+  padding-left: 16px;
+}
+.text_container span {
+  font-size: 20px;
+}
+.black-box {
+  background-color: #161619;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.black-box span {
+  font-size: 50px;
+}
+.sec-2 {
+  margin: 100px 100px 50px 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* align-items: center; */
+}
+.card {
+  width: 320px;
+  transition: 0.2s;
+}
+.card_content {
+  margin: 20px;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.04);
+}
+.sec-3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  /* padding: 10px 10px 0px 10px; */
+}
+.contact {
+  background: #515603;
+
+  min-height: 200px;
+  text-align: center;
+  padding: 30px;
+
+
+}
+.about {
+  background: #722300;
+
+  min-height: 200px;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 164.286% */
+}
+.contact .about h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+footer {
+  width: 100%vh;
+
+  background: #000;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 91.667% */
+  text-align: center;
+  padding: 20px;
+}
